@@ -10,7 +10,7 @@ terraform {
 
   backend "s3" {
     bucket = "curso-terraform-lramosma"
-    key    = "pipeline-gitlab/terraform.tfstate"
+    key    = "pipeline-github/terraform.tfstate"
     region = "sa-east-1"
   }
 }
